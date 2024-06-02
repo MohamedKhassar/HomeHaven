@@ -1,6 +1,11 @@
 {
   "dependencies": {
-    "concurrently": "^8.2.2"
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.6",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^8.2.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0"
   },
   "name": "homehaven",
   "version": "1.0.0",
@@ -10,7 +15,6 @@
     "client",
     "server"
   ],
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd client && npm run dev",
